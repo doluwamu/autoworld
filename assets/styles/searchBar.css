@@ -1,0 +1,37 @@
+/* Stylings for the search bar */
+/* Searchbox starts */
+.search_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0;
+  background: rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+@supports (position: sticky) {
+  .search_section {
+    position: sticky;
+    top: 5rem;
+  }
+}
+
+.search_section input {
+  padding: 0.3rem 0;
+  width: 50%;
+  outline: none;
+}
+
+.search_section .fa-search {
+  /* background-color: var(--mainGrey); */
+  background-color: #808080;
+  color: var(--mainYellow);
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.open {
+  display: none;
+}
+
+/* Searchbox ends */

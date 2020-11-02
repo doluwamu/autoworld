@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AutoWorld.co</title>
+    <link rel="stylesheet" href="assets/styles/searchBar.css" />
+    <link rel="stylesheet" href="assets/styles/car.body.css" />
+    <link rel="stylesheet" href="assets/styles/footer.css" />
+    <link rel="stylesheet" href="assets/styles/main.img.css" />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+
+    <!-- Font awesome CSS -->
+    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.css" />
+    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.min.css" />
+  </head>
+  <body>
+    <div class="all_body">
+      <!-- Nav bar starts -->
+      <nav class="nav-section">
+        <header class="nav_header"><a href="cars.html">AutoWorld</a></header>
+
+        <h1 class="cancel-icon" onclick="closeNav()">X</h1>
+        <ul class="nav-ul">
+          <li class="nav_li"><a href="index.html">Home</a></li>
+          <li class="nav_li"><a href="about.html">About</a></li>
+          <li class="nav_li"><a href="cars.html">Cars</a></li>
+          <li class="nav_li"><a href="contact.html">Contact</a></li>
+          <li class="nav_li"><a href="signIn.html">SignIn</a></li>
+        </ul>
+        <button class="nav-btn" onclick="openNav()">
+          &#9776;
+        </button>
+      </nav>
+
+      <aside class="aside">
+        <h4 class="aside_link_text">
+          <a class="aside_link" href="index.html">Home</a>
+        </h4>
+        <h4 class="aside_link_text">
+          <a class="aside_link" href="about.html">About</a>
+        </h4>
+        <h4 class="aside_link_text">
+          <a class="aside_link" href="cars.html">Cars</a>
+        </h4>
+        <h4 class="aside_link_text">
+          <a class="aside_link" href="contact.html">Contact</a>
+        </h4>
+        <h4 class="aside_link_text">
+          <a class="aside_link" href="signIn.html">SignIn</a>
+        </h4>
+      </aside>
+
+      <!-- Product display starts -->
+      <div class="main-body">
+        <div class="body_img">
+          <div class="search_section">
+            <input type="text" placeholder="Search..." />
+            <i class="fa fa-search"></i>
+          </div>
+
+          <div class="bg_img_text">
+            <h2 class="img_header">Our Cars</h2>
+            <div class="img_pro_header">
+              Check out our cars
+            </div>
+          </div>
+        </div>
+
+        <!-- <h3 class="body_header">Check out our cars</h3> -->
+
+        <h4 class="company_name">Toyota</h4>
+        <div class="car_divisions">
+          <div class="car_details">
+            <a href="#"
+              ><img src="./assets/img/toyotaCamry.jpeg" alt="car"
+            /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Camry</div>
+              <div class="car_price">Price: &#x20A6;3,000,000</div>
+              <div class="car_company">Company: Toyota</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"
+              ><img src="./assets/img/toyotaCorolla.jpeg" alt="car"
+            /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Corolla</div>
+              <div class="car_price">Price: &#x20A6;2,300,000</div>
+              <div class="car_company">Company: Toyota</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/toyotaChr.jpeg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: CH-R</div>
+              <div class="car_price">Price: &#x20A6;3,150,000</div>
+              <div class="car_company">Company: Toyota</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"
+              ><img src="./assets/img/toyotaLandCruiser.jpeg" alt="car"
+            /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Land-Cruiser (Prado)</div>
+              <div class="car_price">Price: &#x20A6;7,300,000</div>
+              <div class="car_company">Company: Toyota</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"
+              ><img src="./assets/img/toyotaInnova.jpeg" alt="car"
+            /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Innova</div>
+              <div class="car_price">Price: &#x20A6;3,000,000</div>
+              <div class="car_company">Company: Toyota</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"
+              ><img src="./assets/img/toyotaRav-4.jpeg" alt="car"
+            /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Rav-4</div>
+              <div class="car_price">Price: &#x20A6;3,200,000</div>
+              <div class="car_company">Company: Toyota</div>
+            </div>
+          </div>
+        </div>
+
+        <h4 class="company_name">BMW</h4>
+        <div class="car_divisions">
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/BMW2series.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: 2 Series</div>
+              <div class="car_price">Price: &#x20A6;2,000,000</div>
+              <div class="car_company">Company: BMW</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/BMW3Series.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: 3 Series</div>
+              <div class="car_price">Price: &#x20A6;2,500,000</div>
+              <div class="car_company">Company: BMW</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/BMW4series.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: 4 Series</div>
+              <div class="car_price">Price: &#x20A6;2,700,000</div>
+              <div class="car_company">Company: BMW</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/BMW5Series.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: 5 Series</div>
+              <div class="car_price">Price: &#x20A6;2,700,000</div>
+              <div class="car_company">Company: BMW</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/BMW6series.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: 6 Series</div>
+              <div class="car_price">Price: &#x20A6;2,900,000</div>
+              <div class="car_company">Company: BMW</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/BMW7Series.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: 7 Series</div>
+              <div class="car_price">Price: &#x20A6;3,100,000</div>
+              <div class="car_company">Company: BMW</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/BMWCoupe.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Coupe</div>
+              <div class="car_price">Price: &#x20A6;3,000,000</div>
+              <div class="car_company">Company: BMW</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/BMW328i.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: 328 i</div>
+              <div class="car_price">Price: &#x20A6;3,300,000</div>
+              <div class="car_company">Company: BMW</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/BMW335i.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: 335 i</div>
+              <div class="car_price">Price: &#x20A6;3,500,000</div>
+              <div class="car_company">Company: BMW</div>
+            </div>
+          </div>
+        </div>
+
+        <h4 class="company_name">Honda</h4>
+        <div class="car_divisions">
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/HondaAccord.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Accord</div>
+              <div class="car_price">Price: &#x20A6;3,000,000</div>
+              <div class="car_company">Company: Honda</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/HondaCivic.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Civic</div>
+              <div class="car_price">Price: &#x20A6;2,500,000</div>
+              <div class="car_company">Company: Honda</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/HondaCR-V.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: CR-V</div>
+              <div class="car_price">Price: &#x20A6;3,200,000</div>
+              <div class="car_company">Company: Honda</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/HondaJazz.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Jazz</div>
+              <div class="car_price">Price: &#x20A6;3,000,000</div>
+              <div class="car_company">Company: Honda</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"
+              ><img src="./assets/img/HondaOdyssey.jpg" alt="car"
+            /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Odyssey</div>
+              <div class="car_price">Price: &#x20A6;2,000,000</div>
+              <div class="car_company">Company: Honda</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/HondaNsx.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: NSX</div>
+              <div class="car_price">Price: &#x20A6;2,310,000</div>
+              <div class="car_company">Company: Honda</div>
+            </div>
+          </div>
+        </div>
+
+        <h4 class="company_name">Nissan</h4>
+        <div class="car_divisions">
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/Nissan370z.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: 370 z</div>
+              <div class="car_price">Price: &#x20A6;1,700,000</div>
+              <div class="car_company">Company: Nissan</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"
+              ><img src="./assets/img/NissanAltima.jpg" alt="car"
+            /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Altima</div>
+              <div class="car_price">Price: &#x20A6;2,500,000</div>
+              <div class="car_company">Company: Nissan</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"
+              ><img src="./assets/img/NissanArmada.jpg" alt="car"
+            /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Aramada</div>
+              <div class="car_price">Price: &#x20A6;3,200,000</div>
+              <div class="car_company">Company: Nissan</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/NissanJuke.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Juke</div>
+              <div class="car_price">Price: &#x20A6;3,000,000</div>
+              <div class="car_company">Company: Nissan</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/NissanKicks.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Kicks</div>
+              <div class="car_price">Price: &#x20A6;2,900,000</div>
+              <div class="car_company">Company: Nissan</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"
+              ><img src="./assets/img/NissanMaxima.jpg" alt="car"
+            /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Maxima</div>
+              <div class="car_price">Price: &#x20A6;1,800,000</div>
+              <div class="car_company">Company: Nissan</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/NissanMicra.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Micra</div>
+              <div class="car_price">Price: &#x20A6;1,800,000</div>
+              <div class="car_company">Company: Nissan</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"
+              ><img src="./assets/img/NissanMurano.jpg" alt="car"
+            /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Murano</div>
+              <div class="car_price">Price: &#x20A6;4,000,000</div>
+              <div class="car_company">Company: Nissan</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"
+              ><img src="./assets/img/NissanPathfinder.jpg" alt="car"
+            /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Pathfinder</div>
+              <div class="car_price">Price: &#x20A6;3,800,000</div>
+              <div class="car_company">Company: Nissan</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/NissanTitan.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Titan</div>
+              <div class="car_price">Price: &#x20A6;5,000,000</div>
+              <div class="car_company">Company: Nissan</div>
+            </div>
+          </div>
+        </div>
+
+        <h4 class="company_name">Ford</h4>
+        <div class="car_divisions">
+          <div class="car_details">
+            <a href="#"
+              ><img src="./assets/img/FordEcosport.jpg" alt="car"
+            /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Eco Sport</div>
+              <div class="car_price">Price: &#x20A6;3,800,000</div>
+              <div class="car_company">Company: Ford</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"
+              ><img src="./assets/img/FordExplorer.jpg" alt="car"
+            /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Explorer</div>
+              <div class="car_price">Price: &#x20A6;5,460,000</div>
+              <div class="car_company">Company: Ford</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/FordFiesta.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Fiesta</div>
+              <div class="car_price">Price: &#x20A6;4,400,000</div>
+              <div class="car_company">Company: Ford</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/FordFocus.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Focus</div>
+              <div class="car_price">Price: &#x20A6;3,530,000</div>
+              <div class="car_company">Company: Ford</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/FordRanger.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Ranger</div>
+              <div class="car_price">Price: &#x20A6;5,000,000</div>
+              <div class="car_company">Company: Ford</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/FordRaptor.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Raptor</div>
+              <div class="car_price">Price: &#x20A6;5,800,000</div>
+              <div class="car_company">Company: Ford</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/FordSuv.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: SUV</div>
+              <div class="car_price">Price: &#x20A6;4,440,000</div>
+              <div class="car_company">Company: Ford</div>
+            </div>
+          </div>
+        </div>
+
+        <h4 class="company_name">Suzuki</h4>
+        <div class="car_divisions">
+          <div class="car_details">
+            <a href="#"
+              ><img src="./assets/img/SuzukiGrandvitara.jpg" alt="car"
+            /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Grand Vitara</div>
+              <div class="car_price">Price: &#x20A6;2,000,000</div>
+              <div class="car_company">Company: Suzuki</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/SuzukiIgnis.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Ignis</div>
+              <div class="car_price">Price: &#x20A6;2,300,000</div>
+              <div class="car_company">Company: Suzuki</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"
+              ><img src="./assets/img/SuzukiMaruti.jpg" alt="car"
+            /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Maruti</div>
+              <div class="car_price">Price: &#x20A6;2,400,000</div>
+              <div class="car_company">Company: Suzuki</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"><img src="./assets/img/SuzukiSwift.jpg" alt="car" /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Swift</div>
+              <div class="car_price">Price: &#x20A6;2,560,000</div>
+              <div class="car_company">Company: Suzuki</div>
+            </div>
+          </div>
+
+          <div class="car_details">
+            <a href="#"
+              ><img src="./assets/img/SuzukiVitara.jpg" alt="car"
+            /></a>
+            <div class="car_details_text">
+              <div class="car_name">Name: Vitara</div>
+              <div class="car_price">Price: &#x20A6;3,100,000</div>
+              <div class="car_company">Company: Suzuki</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product display ends -->
+
+      <!-- Footer starts -->
+
+      <footer class="footer_section">
+        <div class="all_footer">
+          <div class="car_links">
+            <ul class="footer_car_links">
+              <header class="car_links_header">Best Selling Cars</header>
+              <li class="car_link">
+                <a href="#">Toyota Camry</a>
+              </li>
+              <li class="car_link">
+                <a href="#">Toyota Corolla</a>
+              </li>
+              <li class="car_link">
+                <a href="#">Toyota CRU</a>
+              </li>
+              <li class="car_link">
+                <a href="#">Toyota Land-Cruiser</a>
+              </li>
+              <li class="car_link">
+                <a href="#">Honda Civic</a>
+              </li>
+              <li class="car_link">
+                <a href="#">Honda Accord</a>
+              </li>
+              <li class="car_link">
+                <a href="#">Honda CR-V</a>
+              </li>
+              <li class="car_link">
+                <a href="#">Ford Suv</a>
+              </li>
+              <li class="car_link">
+                <a href="#">Nissan Altima</a>
+              </li>
+              <li class="car_link">
+                <a href="#">Nissan Murano</a>
+              </li>
+            </ul>
+
+            <ul class="footer_company_links">
+              <header class="company_links_header">Companies</header>
+              <li class="company_link">
+                <a href="#">Toyota</a>
+              </li>
+              <li class="company_link">
+                <a href="#">BMW</a>
+              </li>
+              <li class="company_link">
+                <a href="#">Honda</a>
+              </li>
+              <li class="company_link">
+                <a href="#">Ford</a>
+              </li>
+              <li class="company_link">
+                <a href="#">Suzuki</a>
+              </li>
+              <li class="company_link">
+                <a href="#">Nissan</a>
+              </li>
+            </ul>
+
+            <ul class="footer_car_color_links">
+              <header class="color_links_header">Colors</header>
+              <li class="color_link">
+                <a href="#">White</a>
+              </li>
+              <li class="color_link">
+                <a href="#">Black</a>
+              </li>
+              <li class="color_link">
+                <a href="#">Red</a>
+              </li>
+              <li class="color_link">
+                <a href="#">Blue</a>
+              </li>
+              <li class="color_link">
+                <a href="#">Yellow</a>
+              </li>
+              <li class="color_link">
+                <a href="#">Gold</a>
+              </li>
+              <li class="color_link">
+                <a href="#">Brown</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer_social_links">
+            <div class="footer_social">
+              <header class="social_links_header">Follow us on:</header>
+              <div class="social_links">
+                <li class="social_link">
+                  <a href="#">Facebook</a>
+                </li>
+                <li class="social_link">
+                  <a href="#">Twitter</a>
+                </li>
+                <li class="social_link">
+                  <a href="#">Instagram</a>
+                </li>
+                <li class="social_link">
+                  <a href="#">Yelp</a>
+                </li>
+                <li class="social_link">
+                  <a href="#">Google-plus</a>
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>
+            &copy; <a href="index.html">AutoWorld.co</a>. All rights reserved,
+            2020.
+          </p>
+        </div>
+      </footer>
+
+      <!-- Footer ends -->
+    </div>
+
+    <!-- Nav script -->
+    <script src="./assets/scripts/index.js"></script>
+
+    <!-- Font awesome JS -->
+    <script src="fontawesome-free-5.11.2-web/js/all.js"></script>
+    <script src="fontawesome-free-5.11.2-web/js/all.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+/* Stylings for about page */
+.about_us,
+.contact_us {
+  padding-bottom: 5rem;
+}
+
+.about_header,
+.contact_header {
+  text-align: center;
+  font-family: var(--firstFont);
+  text-decoration: underline;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--mainWhite);
+  padding: 1rem 0;
+}
+
+.all_sections {
+  background: var(--subBlue);
+  padding: 2rem 0;
+  margin: 1rem auto;
+  width: 1000px;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 0.4rem var(--mainBlack);
+}
+
+.section_one,
+.section_two,
+.section_three {
+  width: 80%;
+  margin: 1.5rem auto;
+}
+
+.section_one_header,
+.section_two_header,
+.section_three_header {
+  color: var(--subWhite);
+  text-decoration: underline;
+}
+
+.section_one_content,
+.section_two_content,
+.section_three_content {
+  color: var(--mainWhite);
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .all_sections {
+    width: 80%;
+  }
+}

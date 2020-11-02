@@ -1,0 +1,115 @@
+/* Stylings for car body */
+/* Main body starts */
+.body_header {
+  text-align: center;
+  color: var(--navy);
+  font-family: var(--secondFont);
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+
+.main-body {
+  margin: 0 auto;
+  padding-bottom: 8rem;
+}
+
+.car_divisions {
+  /* background: #000; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1010px;
+}
+
+.company_name {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--lightGrey);
+  font-family: var(--firstFont);
+  padding: 2rem 2rem 1rem;
+}
+
+.car_details {
+  border-bottom: 1px solid #000;
+  background: var(--gray);
+  width: 16rem;
+  color: var(--gray);
+  padding-bottom: 1rem;
+  margin: 1rem 2.4rem;
+  box-shadow: 0 0 3px #000;
+  transition: 0.5s;
+}
+
+.car_details img {
+  width: 100%;
+  height: 10rem;
+  transition: all 0.5s;
+}
+
+.car_details .car_name,
+.car_details .car_company {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.car_details .car_name {
+  color: var(--mainRed);
+}
+
+.car_details .car_price {
+  color: var(--mainBlack);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.car_details .car_company {
+  color: var(--mainPurple);
+}
+
+.car_details .car_name,
+.car_details .car_price,
+.car_details .car_company {
+  padding-top: 0.3rem;
+  user-select: none;
+}
+
+/* Main body ends */
+
+@media screen and (max-width: 1023px) {
+  .car_divisions {
+    width: 80%;
+  }
+
+  .car_details {
+    width: 70%;
+    margin: 1rem auto;
+  }
+
+  .car_details img {
+    height: 15%;
+  }
+
+  .car_details .car_name,
+  .car_details .car_company {
+    font-size: 1rem;
+  }
+
+  .car_details .car_price {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .car_details {
+    margin: 2rem 2.4rem;
+  }
+
+  .car_details:hover {
+    width: 16.5rem;
+  }
+}

@@ -1,0 +1,40 @@
+/* Stylings for the background image */
+.body_img {
+  text-align: center;
+  height: 20rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url("../img/bmw3.jfif");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.bg_img_text {
+  color: var(--mainWhite);
+}
+
+.img_header {
+  font-family: var(--secondFont);
+  margin-top: 2rem;
+}
+
+.img_pro_header {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+  .body_img {
+    height: 40rem;
+  }
+
+  .img_header {
+    font-size: 2.5rem;
+    margin-top: 6rem;
+  }
+
+  .img_pro_header {
+    font-size: 1.5rem;
+  }
+}

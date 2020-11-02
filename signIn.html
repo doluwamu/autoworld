@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AutoWorld.co</title>
+    <link rel="stylesheet" href="assets/styles/signIn.css" />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+
+    <!-- Font awesome CSS -->
+    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.css" />
+    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.min.css" />
+  </head>
+  <body>
+    <div class="all_body">
+      <!-- Nav bar starts -->
+      <nav class="nav-section">
+        <header class="nav_header"><a href="cars.html">AutoWorld</a></header>
+
+        <h1 class="cancel-icon" onclick="closeNav()">X</h1>
+        <ul class="nav-ul">
+          <li class="nav_li"><a href="index.html">Home</a></li>
+          <li class="nav_li"><a href="about.html">About</a></li>
+          <li class="nav_li"><a href="cars.html">Cars</a></li>
+          <li class="nav_li"><a href="contact.html">Contact</a></li>
+          <li class="nav_li"><a href="signIn.html">SignIn</a></li>
+        </ul>
+        <button class="nav-btn" onclick="openNav()">
+          &#9776;
+        </button>
+      </nav>
+
+      <aside class="aside">
+        <h4 class="aside_link_text">
+          <a class="aside_link" href="index.html">Home</a>
+        </h4>
+        <h4 class="aside_link_text">
+          <a class="aside_link" href="about.html">About</a>
+        </h4>
+        <h4 class="aside_link_text">
+          <a class="aside_link" href="cars.html">Cars</a>
+        </h4>
+        <h4 class="aside_link_text">
+          <a class="aside_link" href="contact.html">Contact</a>
+        </h4>
+        <h4 class="aside_link_text">
+          <a class="aside_link" href="signIn.html">SignIn</a>
+        </h4>
+      </aside>
+
+      <!-- Nav bar ends -->
+
+      <!-- SignIn form starts -->
+
+      <div class="main-body" onclick="closeNav()">
+        
+      <form class="signIn_form">
+        <div class="all_form_content">
+          <h2>Sign In</h2>
+          <div class="signIn_inputs">
+            <label>Username:</label><br />
+            <input
+              class="input_area"
+              id="username"
+              type="text"
+              placeholder="username"
+            />
+          </div>
+
+          <div class="signIn_inputs">
+            <label>E-mail:</label><br />
+            <input
+              class="input_area"
+              id="email"
+              type="email"
+              placeholder="e-mail"
+            />
+          </div>
+
+          <div class="signIn_inputs">
+            <label>Password:</label><br />
+            <input
+              class="input_area"
+              id="password"
+              type="password"
+              placeholder="password"
+            />
+          </div>
+          <button class="btn btn_primary" type="button">Submit</button>
+
+          <div class="form_anchor">
+            <a href="#">already have an account!</a>
+          </div>
+        </div>
+      </form>
+
+      <!-- SignIn form ends -->
+    </div>
+    
+    <!-- Nav script -->
+    <script src="./assets/scripts/index.js"></script>
+
+    <!-- Font awesome JS -->
+    <script src="fontawesome-free-5.11.2-web/js/all.js"></script>
+    <script src="fontawesome-free-5.11.2-web/js/all.min.js"></script>
+
+  </body>
+</html>

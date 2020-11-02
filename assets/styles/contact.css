@@ -1,0 +1,48 @@
+/* Stylings for contact page */
+.contact_us {
+  padding: 4rem 0;
+}
+
+.all_section {
+  margin: 0 auto;
+}
+
+.section_one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 99%;
+}
+
+.section_one a {
+  text-decoration: none;
+}
+
+.section_header,
+.section_number,
+.section_email {
+  color: var(--mainWhite);
+}
+
+.section_header {
+  text-decoration: underline;
+}
+
+.section_number,
+.section_email {
+  line-height: 2rem;
+  transition: all 0.5s;
+}
+
+.section_number:hover,
+.section_email:hover {
+  color: var(--orange);
+}
+
+@media screen and (max-width: 250px) {
+  .all_sections {
+    width: 100%;
+  }
+}

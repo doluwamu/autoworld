@@ -1,0 +1,117 @@
+/* Stylings for footer */
+.footer_section {
+  background: var(--mainBlack);
+  padding: 2rem 0 0;
+}
+
+.all_footer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.car_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.car_links_header,
+.car_link a,
+.company_links_header,
+.company_link a,
+.color_links_header,
+.color_link a,
+.social_links_header,
+.social_link a {
+  color: var(--mainWhite);
+}
+
+.car_links_header,
+.company_links_header,
+.color_links_header,
+.social_links_header {
+  font-size: 1.1rem;
+  font-weight: 800;
+  padding: 0.2rem;
+}
+
+.car_links ul:first-child {
+  padding-left: 1rem;
+}
+
+.car_links ul:last-child {
+  padding-right: 1rem;
+}
+
+.car_link,
+.company_link,
+.color_link {
+  padding: 0.3rem 0;
+  list-style-type: none;
+}
+
+.car_link a,
+.company_link a,
+.color_link a,
+.social_link a {
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.car_link a:hover,
+.company_link a:hover,
+.color_link a:hover,
+.social_link a:hover {
+  color: var(--orange);
+}
+
+.footer_social_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+.footer_social header {
+  text-align: center;
+}
+
+.social_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.social_link {
+  padding: 0.4rem;
+  list-style-type: none;
+}
+
+.copyright {
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+  background: var(--subBlue);
+}
+
+.copyright p {
+  text-align: center;
+}
+
+.copyright p,
+.copyright a {
+  color: var(--mainWhite);
+  font-size: 1.2rem;
+}
+
+.copyright a {
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.copyright a:hover {
+  color: var(--orange);
+}

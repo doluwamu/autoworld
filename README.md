@@ -1,6 +1,6 @@
 ## How to follow along with this project
 
-In order to follow along with this project, you will need to import the bootstrap and fontawesome CDN's respectively.
+In order to follow along with this project, you will need to import the bootstrap and fontawesome CDN's for css and javascript respectively.
 
 In case you don't want to use the cdn, you can download files from bootstrap and fontawesome so as to be able to use their functionalities in this project
 
